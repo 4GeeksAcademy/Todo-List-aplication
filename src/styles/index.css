@@ -1,4 +1,24 @@
+.container-btnDelete {
+    position: relative;
+  }
+  
+  .container-btnDelete .btnDelete {
+    opacity: 0;
+    transition: opacity 0.3s ease;
+    position: absolute;
+    top: 50%;
+    right: 0;
+    transform: translate(100%, -50%);
+  }
+  
+  .list-group-item:hover .btnDelete {
+    opacity: 1;
+  }
 
+  .btnDelete{
+    color: red;
+    border: none;
+  }
 /* 
 
     You can write your own styles here...
