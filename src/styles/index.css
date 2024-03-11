@@ -1,5 +1,17 @@
+html {
+  height: 100%;
+}
+body {
+  height: 100%;
+  background: linear-gradient(135deg, rgb(26, 13, 201) 23%, rgb(255, 255, 253) 100%); 
+}
+input{
+  width: 100%;
+}
+
 .container-btnDelete {
     position: relative;
+    width: 95%;
   }
   
   .container-btnDelete .btnDelete {
@@ -18,7 +30,14 @@
   .btnDelete{
     color: red;
     border: none;
+    background:none;
   }
+
+  .count{
+    color: #B9B9BD;
+  }
+
+  
 /* 
 
     You can write your own styles here...
